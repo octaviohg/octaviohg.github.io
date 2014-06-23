@@ -1,0 +1,411 @@
+/* ==========================================================================
+   Styles Generales
+   ========================================================================== */
+@font-face {
+  font-family: 'gothic';
+  src: url('../fonts/gothic.eot');
+  src: local('../fonts/gothic'), url('../fonts/gothic.woff') format('woff'), url('../fonts/gothic.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_9785">Text with this font applied</p> */
+.fontsforweb_fontid_9785 {
+  font-family: 'gothic' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+body {
+  font-family: 'gothic', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'gothic', sans-serif;
+}
+h1 {
+  font-size: 2.888888888888889em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+/* ==========================================================================
+   Barra de Navegacion
+   ========================================================================== */
+.navbar .navbar-nav {
+  float: none;
+  margin: 10px 0;
+}
+.navbar .navbar-nav li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.navbar .navbar-nav li a {
+  font-size: 15px;
+  line-height: 15px;
+  display: inline-block;
+  color: #FFFFFF;
+}
+.navbar .navbar-nav li a:hover {
+  background-color: transparent;
+  outline: none;
+  color: #18BC9C;
+}
+.navbar .navbar-nav li a:focus {
+  background-color: transparent;
+  outline: none;
+}
+.navbar .navbar-nav li:hover {
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+  -moz-box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+  -o-box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+  box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+}
+.navbar .navbar-nav .active {
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+  -moz-box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+  -o-box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+  box-shadow: 0px 3px 0px 0px rgba(24, 188, 156, 1);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.navbar .navbar-nav .active a,
+.navbar .navbar-nav .active a:hover {
+  color: #18BC9C;
+}
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+  height: auto;
+  position: relative;
+  font-size:25px;
+  line-height:25px;
+  font-weight:normal;
+  color: #18BC9C;
+}
+
+.navbar-brand span {
+  font-size:15px;
+  font-weight:300;
+}
+
+#main-nav{
+  background:transparent;
+  color:#FFFFFF;
+  box-shadow:0 0 0px transparent;
+  -webkit-transition:background 0.3s ease-out;
+  transition:background 0.3s ease-out;
+}
+
+#main-nav.scrolled .navbar-brand{
+  color:#FFFFFF;
+}
+
+#main-nav.scrolled{
+  /*background:#2C3E50;*/
+  background-color: #2C3E50;
+  -webkit-box-shadow: 0px 5px 11px 0px rgba(69, 85, 96, 0.5);
+  -moz-box-shadow: 0px 5px 11px 0px rgba(69, 85, 96, 0.5);
+  -o-box-shadow: 0px 5px 11px 0px rgba(69, 85, 96, 0.5);
+   box-shadow: 0px 5px 11px 0px rgba(69, 85, 96, 0.5);
+}
+.navbar .navbar-toggle {
+  margin-top: 20px;
+  margin-bottom: 3px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.navbar .navbar-toggle:hover {
+  background-color: #18BC9C;
+  border: 2px solid #FFFFFF;
+}
+.navbar .navbar-toggle:hover .icon-bar {
+  background-color: #FFFFFF;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+
+/* ==========================================================================
+   Jumbotron Section
+   ========================================================================== */
+.jumbotron {
+  padding: 150px 0 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+  /*background: transparent url('../img/Winter_leaves.1920x1080.jpg') no-repeat top center;*/
+  font-size: 1em;
+  height: auto;
+  overflow: hidden;
+}
+.jumbotron .container {
+  text-align: center;
+}
+.jumbotron h1 {
+  text-align:center;
+  color: #FFFFFF;
+  font-size: 70px;
+  margin-top: 0px;
+  /*margin-bottom: 40px;*/
+  /*padding-top: 40px;*/
+  /*opacity: 0.9;*/
+  margin-width: 180px;
+  text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+}
+.jumbotron h2 {
+  color: #df5757;
+  font-size: 105px;
+  margin-top: -25px;
+  /*margin-bottom: 5px;*/
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-transform:uppercase;
+}
+.jumbotron p {
+  font-size: 1.333333333333333em;
+  line-height: 1.333333333333333em;
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  margin-bottom: 40px;
+  /*opacity: 0;*/
+}
+.jumbotron p .btn {
+  background-color: #18BC9C;
+  color: #FFFFFF;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px solid #FFFFFF;
+}
+.jumbotron p .btn:hover {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  background-color: #2C3E50;
+}
+/*.jumbotron #header-photo {
+  opacity: 0;
+  margin-top: -100px;
+}*/
+
+/* ==========================================================================
+   Seccion Inicio
+   ========================================================================== */
+.header {
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro {
+  text-align: center;
+  color: #FFF;
+  margin-top: 30%;
+  line-height: 65px;
+  z-index: 0;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.custom-button {
+  display: inline-block !important;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 13px 35px 13px 35px;
+  border-radius: 4px;
+  margin: 10px;
+  border: none;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: #18BC9C;
+  color: #FFFFFF;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px solid #FFFFFF;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  background-color: #2C3E50;
+}
+
+/*================================================== */
+/* FLEX SLIDER
+================================================== */
+#flexHome {
+  background: transparent;
+  margin-top: 400px;
+  margin-bottom:0;
+  border: none;
+  box-shadow:none;
+  width: 100%;
+}
+#flexHome h1 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 11px;
+  font-weight: 300;
+  font-size: 50px;
+  line-height:1em;
+  text-transform:uppercase;
+  padding:0;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  width:100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.flexslider .slides > li {height:135px;}
+.flexslider {
+  box-shadow:none;
+}
+
+.flexslider .flex-control-paging li a {
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+.flexslider .flex-control-paging li a:hover, #sliderWrapper .flex-control-paging li a.flex-active{
+  background: #2C3E50;
+  border:2px solid #FFFFFF;
+}
+
+/*---------------------------------------
+ **   SECTION:  OUR FOCUS             -----
+-----------------------------------------*/
+
+.focus {
+  padding-bottom: 100px;
+  overflow: hidden;
+  background: #FFFFFF;
+}
+/* FOCUS BOX */
+.focus-box {
+  margin-bottom: 75px;
+}
+.focus-box .service-icon {
+  margin-bottom: 30px;
+  width: 145px;
+  height: 145px;
+  margin: auto;
+  border-radius: 50%;
+  border: 10px solid #ececec;
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ON HOVER COLORED ROUNDED CIRCLE AROUND ICONS */
+.red,.green,.blue,.yellow {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.red:hover .service-icon {
+  border: 10px solid #e96656;
+}
+.green:hover .service-icon {
+  border: 10px solid #34d293;
+}
+.blue:hover .service-icon {
+  border: 10px solid #3ab0e2;
+}
+.yellow:hover .service-icon {
+  border: 10px solid #f7d861;
+}
+
+.focus-box h5 {
+  margin-bottom: 15px;
+  color: #404040;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 17px;
+}
+.focus-box p {
+  font-size: 14px;
+}
+
+/*----OTHER FOCUSES ----*/
+.other-focuses {
+  background: url(../images/lines.png) repeat-x center;
+  margin-bottom: 25px;
+}
+.other-focuses .section-footer-title {
+  background: #FFF;
+  padding: 0 15px;
+  color: #404040;
+  font-weight: bold;
+}
+.other-focus-list {
+  padding-top: 5px;
+  margin-bottom: -17px;
+}
+.other-focus-list ul li {
+  display: inline-block;
+  margin-right: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.other-focus-list ul li:last-child {
+  margin-right: 0;
+}
+.other-focus-list ul li i {
+  margin-right: 8px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (max-width: 360px){
+  
+  .intro h1{
+    font-size:24px;
+  }
+  
+  .intro h2{
+    font-size: 35px;
+  }
+
+}
+
+/*@media (min-width: 1200px) {
+  .jumbotron {
+    height: 100%;
+    background: transparent url('../img/Winter_leaves.1920x1080.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+  }*/
+}
